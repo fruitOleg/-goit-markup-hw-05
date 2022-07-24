@@ -66,10 +66,9 @@ ul {
   margin-right: auto;
 }
 
-.backdrop .is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
+
+.no-scroll{
+overflow: hidden;
 }
 
 /*header*/
@@ -545,13 +544,18 @@ ul {
   top: 0px;
   height: 100%;
   width: 100%;
- 
 
   display: flex;
   align-items: center;
   justify-content: center;
 
   background: rgba(0, 0, 0, 0.2);
+  
+}
+.backdrop .is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 .modal {
   position: relative;
