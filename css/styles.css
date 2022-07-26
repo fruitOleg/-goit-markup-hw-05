@@ -205,6 +205,7 @@ ul {
   background-position: center;
 }
 
+
 /*benefits section*/
 .visually-hidden {
   position: absolute;
@@ -256,6 +257,34 @@ ul {
   list-style: none;
   gap: 30px;
 }
+.item-list-work{
+   position: relative;
+}
+.overlay-list-work{
+   bottom: 0;
+   position: absolute;
+   width: 100%;
+   height: 70px;
+
+   background: rgba(47, 48, 58, 0.8);
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.title-overlay-list-work{
+   font-family: var(--main-fonts);
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 16px;
+   text-align: center;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+
+   color: #FFFFFF;
+}
+
+
 /*team section*/
 
 .team-bg {
